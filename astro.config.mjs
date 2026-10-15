@@ -29,7 +29,17 @@ export default defineConfig({
 				},
 				{
 					label: 'Product',
-					items: [{ label: 'Features', slug: 'features' }],
+					items: [
+						{ label: 'Overview of features', slug: 'features' },
+						{ label: 'Authentication', slug: 'features/authentication' },
+						{ label: 'Onboarding', slug: 'features/onboarding' },
+						{ label: 'Store selection', slug: 'features/store-selection' },
+						{ label: 'Menu', slug: 'features/menu' },
+						{ label: 'Tableau', slug: 'features/tableau' },
+						{ label: 'Tickets', slug: 'features/tickets' },
+						{ label: 'Print preview', slug: 'features/print-preview' },
+						{ label: 'Dashboard', slug: 'features/dashboard' },
+					],
 				},
 				{
 					label: 'Technical',
