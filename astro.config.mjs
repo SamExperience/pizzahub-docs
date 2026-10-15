@@ -18,6 +18,35 @@ export default defineConfig({
 					href: 'https://github.com/SamExperience/pizzahub',
 				},
 			],
+			customCss: ['./src/styles/custom.css'],
+			sidebar: [
+				{
+					label: 'Start',
+					items: [
+						{ label: 'Overview', slug: 'overview' },
+						{ label: 'Getting started', slug: 'getting-started' },
+					],
+				},
+				{
+					label: 'Product',
+					items: [{ label: 'Features', slug: 'features' }],
+				},
+				{
+					label: 'Technical',
+					items: [
+						{ label: 'Architecture', slug: 'architecture' },
+						{ label: 'Data model', slug: 'data-model' },
+						{ label: 'Security', slug: 'security' },
+					],
+				},
+				{
+					label: 'Operations',
+					items: [
+						{ label: 'Subscription', slug: 'subscription' },
+						{ label: 'Deployment', slug: 'deployment' },
+					],
+				},
+			],
 		}),
 	],
 });

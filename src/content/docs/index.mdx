@@ -3,7 +3,27 @@ title: PizzaHub Docs
 description: Documentation for PizzaHub, a web application for pizzeria staff.
 template: splash
 hero:
-  tagline: Documentation for PizzaHub, a web application that helps pizzeria staff manage the menu, tickets, orders and subscription.
+  tagline: A web application that helps pizzeria staff manage the menu, tickets, orders and subscription.
+  actions:
+    - text: Getting started
+      link: getting-started/
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/SamExperience/pizzahub
+      icon: external
+      variant: minimal
 ---
 
-Documentation is being written. The sections will appear here as they are completed.
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Features" icon="star">
+		Menu, Tableau, tickets, print preview and order history.
+	</Card>
+	<Card title="Architecture" icon="puzzle">
+		Layers, services and Cloud Functions.
+	</Card>
+	<Card title="Deployment" icon="rocket">
+		Firebase project, Hosting, functions and secrets.
+	</Card>
+</CardGrid>

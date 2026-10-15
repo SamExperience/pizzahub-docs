@@ -1,0 +1,12 @@
+/* PizzaHub brand: tomato red accent on the Starlight theme (light and dark). */
+:root {
+	--sl-color-accent-low: #fbe3e0;
+	--sl-color-accent: #d33a2c;
+	--sl-color-accent-high: #7d1d14;
+}
+
+:root[data-theme='dark'] {
+	--sl-color-accent-low: #5c1b15;
+	--sl-color-accent: #ef6a5b;
+	--sl-color-accent-high: #fbd0ca;
+}
