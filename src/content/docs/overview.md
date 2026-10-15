@@ -23,9 +23,11 @@ The app is built for daily use on a counter or in a kitchen: it works on desktop
 - Tailwind CSS v4, lucide-react icons
 - Vitest and Testing Library, Oxlint
 
-## Live demo
+## Live demo and source code
 
 The app is live at [pizzahub-11284.web.app](https://pizzahub-11284.web.app). Subscriptions there use Stripe test mode only.
+
+The source code is in the [PizzaHub repository](https://github.com/SamExperience/pizzahub).
 
 :::note
 PizzaHub is an MVP (version 1.0.0). These docs describe only what is implemented.
